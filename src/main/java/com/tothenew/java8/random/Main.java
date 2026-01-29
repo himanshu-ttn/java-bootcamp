@@ -72,8 +72,6 @@ public class Main {
                 list.stream()
                         .collect(Collectors.toMap(e -> e, e -> e + " Number"))
         );
-
-        String str =
     }
 //    public static void hello(){System.out.println("Hello World");}
 
