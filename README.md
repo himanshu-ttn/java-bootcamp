@@ -1,3 +1,4 @@
-# java-bootcamp
-## The assignments related files are in package assignment
-## Each assingment is in related folder eg-(intro-to-java-2) 
+# Java Module Assignement
+
+## The assignments are in their respective package : 
+     com/tothenew/( module_name )
