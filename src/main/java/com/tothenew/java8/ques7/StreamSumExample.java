@@ -9,7 +9,7 @@ public class StreamSumExample {
         List<Integer> numbers = Arrays.asList(2, 4, 6, 8, 1, 10, 5, 7);
 
         int sum = numbers.stream()
-                .filter( n -> n>5)
+                .filter(n -> n > 5)
                 .mapToInt(Integer::intValue)
                 .sum();
 

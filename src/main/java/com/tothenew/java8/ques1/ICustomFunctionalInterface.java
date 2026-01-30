@@ -7,7 +7,7 @@ public interface ICustomFunctionalInterface<T> {
 
 @FunctionalInterface
 interface IGreaterThanInterface {
-    boolean execute(int first,int second);
+    boolean execute(int first, int second);
 }
 
 @FunctionalInterface
@@ -21,6 +21,6 @@ interface IConcatenatedInterface {
 }
 
 @FunctionalInterface
-interface IStringToUpperCaseInterface{
+interface IStringToUpperCaseInterface {
     String toUpperCase(String string);
 }
