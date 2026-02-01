@@ -49,7 +49,7 @@ public class OptionalExample {
         System.out.println("Found the specific " + found);
 
         Movie fallbackMovie = example.findMovieByName(movieName).orElseGet(() -> new Movie(movieName, ""));
-        System.out.println("If not found Creating new Object: "+ fallbackMovie.getTitle() );
+        System.out.println("If not found Creating new Object: " + fallbackMovie.getTitle());
 
         try {
             Movie mustExist = example.findMovieByName("Random")

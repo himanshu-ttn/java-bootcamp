@@ -17,11 +17,9 @@ public class DateComparison {
 
         if (date1.isBefore(date2)) {
             System.out.println("First date occurs BEFORE second date");
-        }
-        else if (date1.isAfter(date2)) {
+        } else if (date1.isAfter(date2)) {
             System.out.println("First date occurs AFTER second date");
-        }
-        else {
+        } else {
             System.out.println("Both dates are the SAME");
         }
 

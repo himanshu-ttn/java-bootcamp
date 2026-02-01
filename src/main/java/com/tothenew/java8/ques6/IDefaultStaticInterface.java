@@ -8,7 +8,7 @@ public interface IDefaultStaticInterface {
         System.out.println("default funtion of Interface");
     }
 
-    static void staticMethod(){
+    static void staticMethod() {
         System.out.println("staticMethod of interface");
     }
 }

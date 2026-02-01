@@ -5,8 +5,8 @@ public class ConstructorRefExample {
 
         GameCharacterFactory characterFactory = GameCharacter::new;
 
-        GameCharacter brim = characterFactory.create("Brim", 3 );
-        GameCharacter jett = characterFactory.create("Jett", 5 );
+        GameCharacter brim = characterFactory.create("Brim", 3);
+        GameCharacter jett = characterFactory.create("Jett", 5);
 
         brim.display();
         jett.display();

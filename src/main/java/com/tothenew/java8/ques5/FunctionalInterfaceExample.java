@@ -14,7 +14,7 @@ public class FunctionalInterfaceExample {
         Consumer<String> greet = (name) -> System.out.println("Hello " + name);
         greet.accept("Himanshu");
 
-        Supplier<GameCharacter> getCharacter = () -> new GameCharacter("Dummy", 50)  ;
+        Supplier<GameCharacter> getCharacter = () -> new GameCharacter("Dummy", 50);
         GameCharacter temp = getCharacter.get();
 
         Predicate<Integer> isEven = (num) -> (num % 2) == 0;
